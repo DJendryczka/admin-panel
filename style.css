@@ -8,8 +8,9 @@ body{
 nav a{
     color: rgb(93, 88, 88);
 }
+
 .font-1{
-    font-size: 14px;
+    line-height: 20px;
 }
 .pb-custom{
     padding-bottom: 4rem;
