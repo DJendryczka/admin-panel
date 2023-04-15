@@ -8,7 +8,14 @@ body{
 nav a{
     color: rgb(93, 88, 88);
 }
-
+.button{
+    width: 20%;
+    margin-left: 1rem;
+    padding: 3px 0;
+    background-color: #152d13;
+    color: white;
+    border-radius: 0.6rem;
+}
 .font-1{
     line-height: 20px;
 }
