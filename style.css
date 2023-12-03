@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 40px;
+    font-size: 3rem;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 5.5rem;
+    background-color: rgb(12, 12, 66);
+}
+
+.navbar{
+    height: 3rem;
+    background-color: rgb(12, 12, 66);
+}
+
+.ms-55{
+    margin-left: 5.5rem;
+}
+
+.hide{
+    display: none;
+}
+
+.mt-55{
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+    .nav{
+        display: none;
+    }
+    .ms-55{
+        margin-left: 1.1rem;
+    }
+    .hide{
+        display: block;
+    }
+    .navbar{
+        height: auto;
+    }
+}
